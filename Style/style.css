@@ -94,7 +94,8 @@
 	background-color: #4169E1;
 	padding: 10px 5px;
 	position: sticky;
-	
+	min-width: max-content;
+	z-index: 420;
   top: 0;
 
 }
@@ -103,18 +104,18 @@
 	display: block;
 	margin-right: auto;
 	/* margin-left: auto; */
-	width: 50%;
+	/* width: 50%;
 
-    width: 400px;
+    width: 400px; */
     height: auto;
 
 
 }
 .header img.logo{
 	
-    width: 420px;
+    width: 95vw;
     height: auto;
-
+	max-width: 420px;
 }
 
 .row{
@@ -179,4 +180,8 @@ button {
 
 #banner {
 	text-align: center;
+}
+
+.tabs .tab a {
+	text-overflow: unset;
 }
